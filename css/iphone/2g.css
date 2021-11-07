@@ -1,0 +1,79 @@
+@font-face {
+    font-family: pinkerston;
+    src: url(../../font/pinkerston/Pinkerston.woff);
+    src: url(../../font/pinkerston/Pinkerston.woff2);
+    src: url(../../font/pinkerston/Pinkerston.ttf);
+}
+
+@font-face {
+    font-family: times_sans;
+    src: url(../../font/times_sans_serif/TIMESS__.ttf);
+}
+
+@font-face {
+    font-family: walkway;
+    src: url(../../font/walkway/Walkway\ Expand\ SemiBold.ttf);
+}
+
+body{
+    background: #151515;
+    color: white;
+}
+
+h1{
+    margin-top: 0%;
+    font-family: pinkerston;
+    font-size: 70px;
+    padding-left: 1rem;
+}
+
+h2{
+    font-family: times_sans;
+    font-size: 35px;
+}
+
+h3{
+    float: left;
+}
+
+.subtitle{
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: #d8eefc;
+}
+
+.paragraphe{
+    margin: 0;
+    font-family: walkway;
+}
+
+.colors{
+    position: absolute;
+    top: 35em;
+    left: 2em;
+}
+
+.round{
+    display: inline-block;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 80%;
+}
+
+#grey{
+    background-color: gray;
+    border: white solid 2px;
+}
+
+#red{
+    border: white solid 2px;
+    background-color: red;
+}
+
+#blue{
+    border: white solid 2px;
+    background-color: royalblue;
+}

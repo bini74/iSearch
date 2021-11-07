@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1280px) {
+
+    img{
+        height: 1200px;
+    }
+
+
+    h1{
+        font-size: 80px;
+    }
+
+    h2, h3{
+        font-size: 80px;
+        color: white;
+    }
+
+    #soon{
+        background-color: #303030;
+        border-radius: 30px;
+        margin-bottom: 10em;
+    }
+
+    #soonpic{
+        height: 50%;
+    }
+
+    h3{
+        position: relative;
+        font-size: 80px;
+        bottom: 8em;
+        color: white;
+        text-shadow: #757575 3px 5px 2px;
+
+    }
+
+}

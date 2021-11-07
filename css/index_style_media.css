@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1280px) {
+    .title{
+      font-size: 10em;
+      text-align: center;
+    }
+    #titleSearch{
+      top: 8em;
+      font-size: 50px;
+    }
+    .search-svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .log{
+      position: relative;
+      right: 35em;
+      height: 2em;
+      width: 6em;
+      top: 2em;
+      font-size: 60px;
+    }
+    
+    body{
+        background-color: rgb(15, 15, 15);
+        color: white;
+    }
+
+    img{
+      position: absolute;
+      top: 70em;
+      height: 500px;
+      left: 5em;
+    }
+
+}

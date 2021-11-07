@@ -1,0 +1,42 @@
+
+body {
+  background-color: #151515;
+}
+
+.container {
+  align-items: center;
+  margin: 0%;
+}
+
+.nicebox-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nicebox {
+  display: inline-block;
+  flex: 0 0 calc(1280px / 3);
+  text-align: center;
+}
+
+img {
+  height: 300px;
+}
+
+figure{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding: 1em;
+}
+figcaption h3, h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+}
