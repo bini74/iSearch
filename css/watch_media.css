@@ -1,0 +1,41 @@
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+    img{
+        height: 30em;
+        padding-top: 2em;
+    }
+
+
+    h1{
+        font-size: 80px;
+    }
+
+    h2, h3{
+        font-size: 80px;
+        color: white;
+    }
+
+    #soon{
+        background-color: #303030;
+        border-radius: 30px;
+        margin-bottom: 10em;
+    }
+
+    #soonpic{
+        height: 50%;
+    }
+
+    h3{
+        position: relative;
+        font-size: 80px;
+        color: white;
+        text-shadow: #757575 3px 5px 2px;
+
+    }
+
+    .container{
+        padding: 2em;
+        margin-top: 6em;
+    }
+
+}
