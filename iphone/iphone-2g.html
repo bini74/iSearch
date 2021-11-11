@@ -25,10 +25,11 @@
         Capacité : 4, 8, 16 Go<br />
         Le numéro de modèle est : A1203.<br />
         Prix de sortie : 499 dollars pour 4 Go et 599 dollars pour 8 Go. <br />
-        valeur actuelle : Environ 500€ pour bon etat et plusieurs milliers pour etat neuf avec boite, accesoires, sous blister<br />
     </h2>
 
+    <button id='button'>More</button>
 
+<div id="content" style="display: none;">
     <h3>
 
         <p class="subtitle">DESIGN </p>
@@ -65,8 +66,35 @@
         <p class="paragraphe">Voulant se différencier de la concurrence, Apple a développé son propre système d’exploitation, l’iPhone OS qui est l’acronyme de  “iPhone Operating System”, dont l’entreprise a doté son premier téléphone (iPhone OS ) et qu’elle conservera pour ces prochains modèles.</p>
 
         <p class="subtitle">ACCESSOIRES </p>
-        <p class="paragraphe">L’iPhone 1 est principalement compatible avec des accessoires multimédia. Son port de prise jack lui permet d’être branché à des écouteurs ou un casque de musique disposant d’un câble à embout jack 3,5 mm. De plus, l’iPhone 2G, comme bien d’autres téléphones de l’époque, pouvait être équipé d’une coque ou d’un étui de protection <a href="prototype.html">.</a></p>
+        <p class="paragraphe">L’iPhone 1 est principalement compatible avec des accessoires multimédia. Son port de prise jack lui permet d’être branché à des écouteurs ou un casque de musique disposant d’un câble à embout jack 3,5 mm. De plus, l’iPhone 2G, comme bien d’autres téléphones de l’époque, pouvait être équipé d’une coque ou d’un étui de protection.</p>
     </h3>
-    
+</div>
+
+
+<script>
+var button = document.getElementById('button');
+
+button.onclick = function() {
+    var div = document.getElementById('content');
+    if (div.style.display !== 'none') {
+        div.style.display = 'none';
+    }
+    else {
+        div.style.display = 'block';
+    }
+};
+</script>
+<script>
+    const btn = document.getElementById('button');
+
+btn.addEventListener("click", ()=>{
+
+    if(btn.innerText === "More"){
+        btn.innerText = "Less";
+    }else{
+        btn.innerText= "More";
+    }
+});
+</script>
 </body>
 </html>
