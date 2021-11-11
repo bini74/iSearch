@@ -29,14 +29,7 @@
         Prix de sortie : 499 dollars pour 4 Go et 599 dollars pour 8 Go. <br />
     </h2>
 
-    <button id='button'>Bonjour</button>
-
-    <ul>
-        
-        <li><a href="#news">Price</a></li>
-        <li><a href="#contact">One</a></li>
-        <li><a href="#about">Two</a></li>
-      </ul>
+    <button id='button'>More</button>
 
 <div id="content" style="display: none;">
     <h3>
@@ -92,6 +85,18 @@ button.onclick = function() {
         div.style.display = 'block';
     }
 };
+</script>
+<script>
+    const btn = document.getElementById('button');
+
+btn.addEventListener("click", ()=>{
+
+    if(btn.innerText === "More"){
+        btn.innerText = "Less";
+    }else{
+        btn.innerText= "More";
+    }
+});
 </script>
 </body>
 </html>
