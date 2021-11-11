@@ -34,7 +34,38 @@ h2{
 
 h3{
     float: left;
+    margin-top: 5em;
 }
+
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    margin-top: 14em;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+    border: 3px solid aliceblue;
+    width: 100%;
+}
+  
+li {
+    float: left;
+    border: 3px solid aliceblue;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
 
 .subtitle{
     padding-top: 2rem;
@@ -76,4 +107,9 @@ h3{
 #blue{
     border: white solid 2px;
     background-color: royalblue;
+}
+
+#content{
+    position: absolute;
+    top: 40em;
 }
